@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+
+.navbar{
+    width: 100%;
+    display : flex;
+    justify-content: space-evenly;
+    background-color:#212529 ;
+    height: 3rem;
+    ;
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color:white;
+        margin-top: 0.5rem;
+        &:hover{
+            cursor: pointer;
+            color:$backgroundColor;
+        }
+
+    }
+}
